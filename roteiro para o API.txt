@@ -1,0 +1,3 @@
+roteiro para o API
+
+1 - criar uma API
