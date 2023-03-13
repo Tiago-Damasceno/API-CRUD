@@ -1,3 +1,10 @@
 roteiro para o API
 
 1 - criar uma API
+    1.1 grantir que está rodando
+    1.2 fazer as paginas lerem meu codigo a partr do jsonify
+2 - criar um uma conta onde a pessoa pode criar uma play list proria.
+    criar um login e senha 
+    fazer ela colocar os nomes das musiacas e seu link do youtube
+3 - criar uma interface grafica ou então uma pagina dentro da interface (acho que dá)
+    
