@@ -11,5 +11,5 @@ roteiro para o API
     fazer uma interface para o CRUD
     fazer uma interface onde seja rodado o video
     (ou criar uma playlist propria com ligação direta com o link)
-    
+4 será possivel adptar esse metodo ao boostrap
     
