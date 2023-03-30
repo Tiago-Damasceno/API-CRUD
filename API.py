@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask('__name__')
 
@@ -13,8 +13,12 @@ def contatos(name = None):
       return render_template("contatos.html", name = name)
 
 @app.route('/usuarios')
-def usarios(name = None):
+def usuarios(name = None):
     return render_template("usuarios.html", name = name, lista_usuarios = lista_usuarios)
+
+@app.route('/login')
+def login(name = None):
+    return render_template("login.html", name = name)
 
 
 if __name__ == '__main__':

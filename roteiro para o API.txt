@@ -12,4 +12,5 @@ roteiro para o API
     fazer uma interface onde seja rodado o video
     (ou criar uma playlist propria com ligação direta com o link)
 4 será possivel adptar esse metodo ao boostrap
-    
+
+  OBS.: CRIEI A LISTA_USUARIO = LISTA_USUARIOS PARA ORGANIZAR MELHOR OS OMES DE USUÁRIOS NA PAGINA DESIGNADA.
