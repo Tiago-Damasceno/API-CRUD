@@ -10,6 +10,8 @@ API-CRUD FEITO COM PYTHON🐍
 ⬜     1.2 fazer as paginas lerem meu codigo a partr do jsonify
        
 ✔      1.3 Usar bootstrap
+       
+✔      1.4 usar HTML para configurar a pagina
 
 ⬜  2 - criar um uma conta onde a pessoa pode criar uma play list propria. CRUD
 
