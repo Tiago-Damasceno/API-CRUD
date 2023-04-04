@@ -6,9 +6,25 @@
         <div class="row">
         <div class="col">
             <h1><p>login</p></h1>
+            {{ form_login.email.label }}
+            {{ form_login.email }}
+            {{ form_login.senha.label }}
+            {{ form_login.senha }}
+            {{ form_login.lembrar_dados.label }}
+            {{ form_login.lembrar_dados }}
+            {{ form_login.botão_login }}
         </div>
         <div class="col">
             <h1><p>cadastro</p></h1>
+            {{ form_criar_conta.username.label }}
+            {{ form_criar_conta.username }}
+            {{ form_criar_conta.email.label }}
+            {{ form_criar_conta.email }}
+            {{ form_criar_conta.senha.label }}
+            {{ form_criar_conta.senha }}
+            {{ form_criar_conta.confirmação.label }}
+            {{ form_criar_conta.confirmação }}
+            {{ form_criar_conta.botão_submit_criarconta }}
          </div>
         </div>
 {% endblock %}
