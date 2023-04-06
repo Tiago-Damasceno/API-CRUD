@@ -23,7 +23,7 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ✔      3.1fazer uma interface para o login
 
-⬜     3.2fazer uma interface para o CRUD
+✔        3.2fazer uma interface para o CRUD
 
 ⬜      3.3fazer uma interface onde seja rodado o video
 
