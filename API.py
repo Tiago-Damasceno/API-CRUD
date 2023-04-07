@@ -30,7 +30,8 @@ def login(name = None):
 
 #@app.route('/mrp')
 
-
+@app.route('/mrp2')
+def login(name = None):
 
 if __name__ == '__main__':
         app.run(debug=True)
