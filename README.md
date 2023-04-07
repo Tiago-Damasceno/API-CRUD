@@ -1,5 +1,5 @@
 # API-CRUD
-API-CRUD FEITO COM PYTHON🐍
+API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ## ROADMAP
 
@@ -23,7 +23,7 @@ API-CRUD FEITO COM PYTHON🐍
 
 ✔      3.1fazer uma interface para o login
 
-⬜     3.2fazer uma interface para o CRUD
+✔        3.2fazer uma interface para o CRUD
 
 ⬜      3.3fazer uma interface onde seja rodado o video
 
