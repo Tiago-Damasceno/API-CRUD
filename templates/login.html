@@ -2,33 +2,52 @@
 
 {% block body %}
     <div class="container">
+        <h1>casdastre-se ou faça login</h1>
+        <hr>
 
             <div class="row">
             <div class="col">
-                <form>
-                    <h1><p>login</p></h1>
-                    {{ form_login.email.label }}
-                    {{ form_login.email }}
-                    {{ form_login.senha.label }}
-                    {{ form_login.senha }}
-                    {{ form_login.lembrar_dados.label }}
-                    {{ form_login.lembrar_dados }}
-                    {{ form_login.botão_login }}
+                <form method="post" action="" class="border p-3 m-3" >
+                    <fieldset>
+                    <legend><p>login</p></legend>
+                    <div class="form-gorup">
+                        {{ form_login.email.label(class="form-control-label") }}
+                        {{ form_login.email(class = "form-control")}}
+                    </div>
+                    <div class="form-gorup">
+                        {{ form_login.senha.label(class="form-conrtol-label") }}
+                        {{ form_login.senha(class="form-control") }}
+                    <div class="form-gorup">
+                        {{ form_login.lembrar_dados.label(class = "form-check-label") }}
+                        {{ form_login.lembrar_dados(class = "form-check-input") }}
+                    </div>
+                    </fieldset>
+                    {{ form_login.botão_login(class = "btn btn-primary m-4") }}
                 </form>
             </div>
 
         <div class="col">
-            <form>
-                <h1><p>cadastro</p></h1>
-                {{ form_criar_conta.username.label }}
-                {{ form_criar_conta.username }}
-                {{ form_criar_conta.email.label }}
-                {{ form_criar_conta.email }}
-                {{ form_criar_conta.senha.label }}
-                {{ form_criar_conta.senha }}
-                {{ form_criar_conta.confirmação.label }}
-                {{ form_criar_conta.confirmação }}
-                {{ form_criar_conta.botão_submit_criarconta }}
+            <form method="post" action="" class="border p-3 m-3">
+                <legend><p>cadastro</p></legend>
+                <fieldset>
+                <div class="form-gorup">
+                    {{ form_criar_conta.username.label(class="form-control-label") }}
+                    {{ form_criar_conta.username(class="form-control") }}
+                </div>
+                 <div class="form-gorup">
+                    {{ form_criar_conta.email.label(class="form-control-label") }}
+                    {{ form_criar_conta.email(class="form-control") }}
+                </div>
+                <div class="form-gorup">
+                    {{ form_criar_conta.senha.label(class="form-control-label") }}
+                    {{ form_criar_conta.senha(class="form-control") }}
+                </div>
+                <div class="form-gorup">
+                    {{ form_criar_conta.confirmação.label(class="form-control-label") }}
+                    {{ form_criar_conta.confirmação(class="form-control") }}
+                </div>
+                </fieldset>
+                {{ form_criar_conta.botão_submit_criarconta(class = "btn btn-primary m-2") }}
             </form>
          </div>
         </div>

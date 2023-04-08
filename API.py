@@ -21,17 +21,13 @@ def contatos(name = None):
 def usuarios(name = None):
     return render_template("usuarios.html", name = name, lista_usuarios = lista_usuarios)
 
-@app.route('/login')
+@app.route('/login', methods=['GET', 'POST'])
 def login(name = None):
 
     form_login = FormLogin()
     form_criar_conta = FormCriarConta()
     return render_template("login.html", name = name, form_login = form_login, form_criar_conta = form_criar_conta)
 
-#@app.route('/mrp')
-
-@app.route('/mrp2')
-def login(name = None):
 
 if __name__ == '__main__':
         app.run(debug=True)
