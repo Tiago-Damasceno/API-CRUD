@@ -6,8 +6,6 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 ✔   1 - criar uma API
 
 ✔      1.1 grantir que está rodando
-
-⬜     1.2 fazer as paginas lerem meu codigo a partr do jsonify
        
 ✔      1.3 Usar bootstrap
        
