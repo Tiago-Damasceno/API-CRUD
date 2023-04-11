@@ -8,6 +8,7 @@
             <div class="row">
             <div class="col">
                 <form method="post" action="" class="border p-3 m-3" >
+                    {{ form_login.csrf_token }}
                     <fieldset>
                     <legend><p>login</p></legend>
                     <div class="form-gorup">
@@ -28,6 +29,7 @@
 
         <div class="col">
             <form method="post" action="" class="border p-3 m-3">
+                 {{ form_criar_conta.csrf_token }}
                 <legend><p>cadastro</p></legend>
                 <fieldset>
                 <div class="form-gorup">
