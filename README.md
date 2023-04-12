@@ -15,6 +15,8 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ✔      2.1criar um login e senha 
 
+✔      2.2 criar token de login e criar conta para validar o processo.
+
 ⬜      2.2fazer ela colocar os nomes das musiacas e seu link do youtube
 
 ✔  3 - criar uma interface grafica ou então uma pagina dentro da interface (acho que dá)
