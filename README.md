@@ -13,9 +13,11 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ⬜  2 - criar um uma conta onde a pessoa pode criar uma play list propria. CRUD
 
-✔      2.1criar um login e senha 
+✔      2.1 criar um login e senha
 
-✔      2.2 criar token de login e criar conta para validar o processo.
+✔      2.2 fazer criar conta
+
+✔      2.3 criar token de login e criar conta para validar o processo.
 
 ⬜      2.2fazer ela colocar os nomes das musiacas e seu link do youtube
 
