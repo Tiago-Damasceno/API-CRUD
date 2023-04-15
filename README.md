@@ -31,4 +31,4 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ⬜      3.3fazer uma interface onde seja rodado o video
 
-⬜     3.4(ou criar uma playlist propria com ligação direta com o link)OPCIONAL
+✔     3.4(ou criar uma playlist propria com ligação direta com o link)OPCIONAL
