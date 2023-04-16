@@ -8,6 +8,10 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 ✔      1.1 grantir que está rodando
        
 ✔      1.3 Usar bootstrap
+
+✔         1.3.1 booststrap para estilizar o site
+
+✔         1.3.2 bootstrap para organizar as paginas e suas layouts
        
 ✔      1.4 usar HTML para configurar a pagina
 
