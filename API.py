@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for, request, flash, redirect
 from forms import FormLogin, FormCriarConta
 import os
 
@@ -26,6 +26,17 @@ def login(name = None):
 
     form_login = FormLogin()
     form_criar_conta = FormCriarConta()
+
+
+    if form_login.validate_on_submit() and 'botão_login' in request.form:
+        flash(f'login feito com sucesso para o email {form_login.email.data}')
+        return redirect(url_for('homepage'))
+        #fez login  com sucesso
+    if form_criar_conta.validate_on_submit() and 'botão_submit_criarconta' in request.form:
+        flash(f'conta criada com sucesso para o email {form_criar_conta.email.data}')
+        return redirect(url_for('homepage'))
+        #criou conta com sucesso
+
     return render_template("login.html", name = name, form_login = form_login, form_criar_conta = form_criar_conta)
 
 
