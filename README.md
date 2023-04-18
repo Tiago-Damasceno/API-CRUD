@@ -6,6 +6,8 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 ✔   1 - criar uma API
 
 ✔      1.1 grantir que está rodando
+
+⬜     1.2 usar Flask para criar uma Site
        
 ✔      1.3 Usar bootstrap
 
@@ -33,6 +35,7 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ✔      3.3 criar uma aba de contato
 
-⬜      3.3fazer uma interface onde seja rodado o video
+⬜     3.3fazer uma interface onde seja rodado o video
 
 ✔     3.4(ou criar uma playlist propria com ligação direta com o link)OPCIONAL
+
