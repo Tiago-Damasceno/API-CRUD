@@ -7,7 +7,7 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ✔      1.1 grantir que está rodando
 
-⬜     1.2 usar Flask para criar uma Site
+✔     1.2 usar Flask para criar uma Site
        
 ✔      1.3 Usar bootstrap
 
