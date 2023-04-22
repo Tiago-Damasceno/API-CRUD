@@ -15,7 +15,13 @@
 
 
         {% with mensagens = get_flashed_messages(with_categories=True) %}
-            {% if %}
+            {% if mensagens %}
+                {% for categoria, mensagem in mensagens %}
+                   <div class="alert alert-success" role="alert">
+                        {{ mensagem }}
+                    </div>
+                {% endfor %}
+            {% endif %}
         {% endwith %}
 
         {% block body%}
