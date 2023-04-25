@@ -43,7 +43,7 @@ API-CRUD FEITO COM PYTHON🐍 e HTML 🈷
 
 ✔     4.1 fazer integração do Flask com SQLAlchemy
 
-⬜    4.2 criar as tabelas de usuarios e de post
+✔     4.2 criar as tabelas de usuarios e de post
 
 ⬜    4.3 preencher as tabelas 
 
