@@ -1,19 +1,21 @@
-from API import database
+from API import db
 from datetime import datetime
-class Usuario(database.model):
-    id = database.Column(database.Integer, primary_key=True)
-    usuario = database.Column(database.String, nullable=False )
-    senha = database.Column(database.String, nullable=False, )
-    email = database.Column(database.String, nullable=False, unique=True)
-    foto_perfil = database.Column(database.String, default='default.jpg')
-    posts = database.relationsip('Post', backref='autor', lazy=True)
-    estilo = database.Column(database.String, nullable=False, default='Não Informado')
 
 
-class Post(database.model):
-    id = database.Column(database.Integer, primary_key=True)
-    titulo = database.Column(database.String, nullable=False)
-    corpo = database.Column(database.Text, nullable=False)
-    data_criação = database.Column(database.Datetime, nullable=False, default=datetime.utcnow)
-    id_usuario = database.Column(database.Integer,  database.ForeignKey('usuario.id'), nullable=False)
+class Usuario(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    usuario = db.Column(db.String, nullable=False )
+    senha = db.Column(db.String, nullable=False, )
+    email = db.Column(db.String, nullable=False, unique=True)
+    foto_perfil = db.Column(db.String, default='default.jpg')
+    posts = db.Relationship('Post', backref='autor', lazy=True)
+    estilo = db.Column(db.String, nullable=False, default='Não Informado')
+
+
+class Post(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    titulo = db.Column(db.String, nullable=False)
+    corpo = db.Column(db.Text, nullable=False)
+    data_criação = db.Column(db.Datetime, nullable=False, default=datetime.utcnow)
+    id_usuario = db.Column(db.Integer, db.ForeignKey('usuario.id'), nullable=False)
 

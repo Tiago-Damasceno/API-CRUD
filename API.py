@@ -6,10 +6,12 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask('__name__')
 lista_usuarios = ['Paula', 'Felipe', 'Eloá', 'Raví', 'Tiago']
 
+db = SQLAlchemy(app)
+
 app.secret_key = os.environ.get('FLASK_SECRET_KEY', '86a80337ce81d80a3503f02eb197c8c5')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///comunidade.db'
 
-database = SQLAlchemy(app)
+
 
 
 
